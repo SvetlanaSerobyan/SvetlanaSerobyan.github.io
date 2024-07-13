@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    }
+    
+    
+    body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1b4965;
+    }
+    
+    .snake{
+    background-color: #03045e;
+    }
+    
+    
+    #game-board{
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: repeat(25, 25px);
+    grid-template-rows: repeat(25,25px);
+    margin: 5px;
+    }
+    .game-border-1{
+    border: #0077b6 solid 10px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 10px #0077b6;
+    }
+    
+    .game-border-2{
+    border: #00b4d8 solid 8px;
+    border-radius: 26px;
+    box-shadow: inset 0 0 0 10px #fff;
+    }
+    
+    .game-border-3{
+    border: #90e0ef solid 30px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 5px #90e0ef;
+    }
+    
+    #instruction-text{
+    position: absolute;
+    top: 60%;
+    color:#0077b6;
+    width: 400px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px;
+    margin: 0;
+    }
+    
+    
+    .scores{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    #logo{
+    position: absolute;
+    height: 250px;
+    }
+    #score{
+        color: #0077b6
+    }
+
+    #score,
+    #highscore{
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 10px 0;
+    }
+
+    #highscore{
+        color: #0077b6;
+        display: none;
+    }
+
+    .game-border-3{
+        background-color: #caf0f8;
+    }
+
+    .snake{
+        border:#03045e  1px dotted;
+    }
+
+    .food{
+        background-color: #dedede;
+        border: #999 5px solid;
+    }
+
+    .wall{
+        background-color: #00b4d8;
+        border: #0077b6 5px solid;
+    }
+
+    .hyper-food{
+        background-color: #c1121f;
+        border: #780000 5px solid;
+    }
+
+    .snake-0-2{
+        border:#606c38  1px solid;
+    }
